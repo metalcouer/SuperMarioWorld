@@ -4,6 +4,7 @@
     margin: 50px;
     padding: 50px;
     justify-content: flex-end;
+    flex-direction: row;
  }
  
  li {
@@ -22,15 +23,20 @@
  .main {
      background-image: url("backimage.jpeg"); 
     background-repeat: no-repeat;
-    background-size: 98%;
+    background-attachment: fixed;
     display:flex;
     flex-direction: column;
+    background-size: cover;
  }
  
 
  
  img {
-        width: 400px;
+        max-width: 100px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+        display: block;
 
  }
 
